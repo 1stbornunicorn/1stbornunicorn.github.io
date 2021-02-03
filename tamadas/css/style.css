@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #363636;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-success {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 1px;
+  background-color: #84BA3F;
+  border: 1px solid #84BA3F;
+}
+
+.btn-success:hover {
+  background-color: #363636;
+}
+
+.box {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  max-width: 100%;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.green-box {
+  background-color: #84BA3F;
+  color: white;
+  padding: 30px;
+}
+
+.btn-outline-light {
+  padding: 10px 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 1px;
+  font-weight: 600;
+  border: 2px solid white;
+}
+
+.btn-outline-light:hover {
+  color: #84BA3F;
+}
+
+.grey-box {
+  background-color: #363636;
+  color: white;
+  padding: 30px;
+}
+
+.item1 {
+  background-color: #84BA3F;
+  padding: 40px 35px;
+  color: white;
+}
+
+.item2 {
+  background-size: 150%;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px 35px;
+}
+
+.item3 {
+  background-color: #eeeeee;
+  padding: 40px 35px;
+}
+
+.btn-outline-dark {
+  padding: 10px 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 1px;
+  font-weight: 600;
+  border: 2px solid #363636;
+}
+
+.test {
+  background-color: #eeeeee;
+  padding: 30px 30px 45px 30px;
+  margin: auto;
+}
+.test img {
+  position: absolute;
+  bottom: -35px;
+  right: 60px;
+  max-height: 50%;
+  max-width: 50%;
+  border-radius: 100%;
+  border: 4px solid #84BA3F;
+}
+
+.user {
+  color: #84BA3F;
+  font-weight: 500;
+}
+
+.user-text {
+  padding: 0 50px;
+}
+
+.fa-quote-left {
+  color: #84BA3F;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.row > div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.test2 {
+  padding: 40px 40px 60px;
+  margin-top: 20px;
+}
+.test2 img {
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  margin-top: 20px;
+  max-width: 120px;
+  border-radius: 100%;
+  border: 4px solid #363636;
+}
+.test2 p {
+  border-bottom: 2px solid #363636;
+  padding-bottom: 20px;
+}
+
+.grey-quote {
+  color: #363636;
+}
+
+.testimonials {
+  background-color: #84BA3F;
+}
+
+.team-info3 {
+  margin-left: 40px;
+}
+.team-info3 img {
+  position: absolute;
+  left: 20px;
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 100%;
+  border: 4px solid #84BA3F;
+}
+.team-info3 h5 {
+  font-family: "Poppins", sans-serif;
+  color: #84BA3F;
+  font-weight: 300;
+}
+
+.two {
+  background-color: #eeeeee;
+  padding: 40px 40px 40px 100px;
+}
+
+.team-info, .text, .team-info2, .text-two {
+  padding: 10px 0;
+  margin: 0;
+}
+.team-info img, .text img, .team-info2 img, .text-two img {
+  max-width: 100%;
+}
+.team-info h3, .text h3, .team-info2 h3, .text-two h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.team-info .h3-variation, .text .h3-variation, .team-info2 .h3-variation, .text-two .h3-variation {
+  color: #84BA3F;
+  font-size: 16px;
+}
+.team-info p, .text p, .team-info2 p, .text-two p {
+  text-transform: uppercase;
+}
+.team-info .p-variation, .text .p-variation, .team-info2 .p-variation, .text-two .p-variation {
+  text-transform: none;
+}
+
+.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.team-pic2 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  position: relative;
+}
+.team-pic2 img {
+  width: 100%;
+  border-radius: 100%;
+  border: 4px solid white;
+  display: block;
+  height: auto;
+}
+.team-pic2 .overlay {
+  border-radius: 100%;
+  border: 4px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #363636;
+}
+
+.team-pic2:hover .overlay {
+  opacity: 0.95;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .media.one {
+    flex-direction: column;
+  }
+
+  .team-info2 {
+    width: 100%;
+  }
+}
+.media.one {
+  align-items: unset;
+}
+
+.team-pic {
+  display: flex;
+  flex-basis: 35%;
+}
+
+.one {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #363636;
+}
+.one img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.team-info2 {
+  text-align: center;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.team-info2 h3 {
+  font-size: 18px;
+}
+.team-info2 .h3-variation {
+  font-size: 18px;
+}
+
+.team-pic3 {
+  position: relative;
+  width: 100%;
+  border: 4px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.team-pic3 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-two {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #363636;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-pic3:hover .overlay-two {
+  bottom: 0;
+  height: 100%;
+}
+
+.text-two {
+  white-space: nowrap;
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=style.css.map */
