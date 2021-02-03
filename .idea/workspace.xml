@@ -1,47 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aee1d337-186a-4454-aff4-51df533526c3" name="Default Changelist" comment="hali">
-      <change afterPath="$PROJECT_DIR$/tamadas/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/fontaw.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/owl-carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/owl-carousel.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/owl-carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/sajat-carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/sajat-carousel.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/sajat-carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/img/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/img/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/img/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/img/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/img/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/js/owl-carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/js/sajat-carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tamadas/webfonts/fa-solid-900.woff2" afterDir="false" />
+    <list default="true" id="aee1d337-186a-4454-aff4-51df533526c3" name="Default Changelist" comment="tamadas-projekt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tamadas/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tamadas/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tamadas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tamadas/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +35,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -90,7 +59,7 @@
       <workItem from="1611774977872" duration="1189000" />
       <workItem from="1612292399361" duration="705000" />
       <workItem from="1612293857647" duration="386000" />
-      <workItem from="1612368999049" duration="909000" />
+      <workItem from="1612368999049" duration="4306000" />
     </task>
     <task id="LOCAL-00001" summary="hali">
       <created>1611775084771</created>
@@ -120,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611775660449</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tamadas-projekt">
+      <created>1612369957265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612369957265</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hali" />
-    <option name="LAST_COMMIT_MESSAGE" value="hali" />
+    <MESSAGE value="tamadas-projekt" />
+    <option name="LAST_COMMIT_MESSAGE" value="tamadas-projekt" />
   </component>
 </project>
