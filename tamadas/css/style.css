@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.btn-primary {
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  background: radial-gradient(100% 100% at 100% 0%, #087699 0%, rgba(8, 118, 153, 0) 100%), #085199;
+  border: 0;
+}
+
+.navigation {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.navigation .navbar {
+  padding: 5px 20px;
+}
+.navigation .navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+.navigation .navbar-brand img {
+  width: auto;
+  height: 50px;
+}
+.navigation .nav-item {
+  display: flex;
+  align-items: center;
+}
+.navigation .nav-item a.nav-link {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.navigation .nav-item a.nav-link:hover {
+  color: #0095C5;
+}
+
+.header {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.header .image img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: calc(100% + 70px);
+  top: -70px;
+  left: 0;
+}
+.header .text h2 {
+  font-size: 66px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.header .text p {
+  padding: 30px;
+  font-size: 28px;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
