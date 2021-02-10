@@ -70,4 +70,128 @@ body {
   color: white;
 }
 
+.info {
+  padding: 100px 0;
+}
+.info h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 34px;
+  color: #333;
+  padding-bottom: 50px;
+}
+.info .image {
+  text-align: center;
+  margin-left: 60px;
+}
+.info .image img {
+  max-width: 470px;
+  height: auto;
+}
+.info .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info .col-md-6 .button {
+  padding-top: 30px;
+}
+
+.icons {
+  background: radial-gradient(99.13% 100% at 100% 0%, #087699 0%, rgba(8, 118, 153, 0) 100%), #085199;
+  padding: 100px 50px;
+  color: white;
+}
+.icons h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.icons .col-md-3 {
+  text-align: center;
+}
+.icons .col-md-3 img {
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.icons .col-md-3 p {
+  font-size: 25px;
+}
+.icons .button {
+  text-align: center;
+  margin-top: 50px;
+}
+.icons .button .btn-primary {
+  background: transparent;
+  border: 3px solid white;
+}
+
+.forint {
+  min-height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.forint .image img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: calc(100% + 70px);
+  top: -70px;
+  left: 0;
+}
+.forint .text h2 {
+  font-size: 64px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.forint .text p {
+  font-size: 28px;
+  color: #333;
+  margin: 50px;
+}
+
+.open {
+  padding: 60px;
+}
+.open .title {
+  color: #333;
+  font-size: 34px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.open .accordion {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.open .accordion .card {
+  border-radius: 0;
+}
+.open .accordion .card .card-header {
+  background: #085199;
+  border: 1px solid #06396A;
+}
+.open .accordion .card .card-header .btn-link {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  text-transform: uppercase;
+  border: 0;
+}
+.open .accordion .card .card-header .btn-link:hover {
+  color: #333;
+}
+.open .accordion .card .card-header .btn.focus, .open .accordion .card .card-header .btn:focus {
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.progress {
+  padding: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
