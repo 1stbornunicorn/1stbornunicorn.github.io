@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800&display=swap");
 body {
   font-family: "Kanit", sans-serif;
+  color: #333;
 }
 
 .btn-primary {
@@ -12,6 +13,10 @@ body {
   padding: 15px 25px;
   background: radial-gradient(100% 100% at 100% 0%, #087699 0%, rgba(8, 118, 153, 0) 100%), #085199;
   border: 0;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .navigation {
@@ -190,8 +195,91 @@ body {
   box-shadow: 0 0 0 0 transparent;
 }
 
-.progress {
+.abra {
   padding: 50px;
+}
+.abra .col-md-4 {
+  display: flex;
+  align-items: center;
+}
+.abra h2 {
+  text-transform: uppercase;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.abra .text .number {
+  background-color: #085199;
+  padding: 7px 14px;
+  margin-right: 10px;
+  border-radius: 100%;
+  color: white;
+}
+.abra .text .item {
+  padding: 10px;
+}
+.abra .text span {
+  font-size: 22px;
+}
+.abra .image {
+  text-align: center;
+}
+.abra .image img {
+  max-width: 500px;
+  height: auto;
+}
+
+.napelem {
+  min-height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.napelem .image img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: calc(100% + 70px);
+  top: -70px;
+  left: 0;
+}
+.napelem .text h2 {
+  font-size: 64px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.napelem .text p {
+  font-size: 28px;
+  color: #333;
+  margin: 50px;
+}
+
+.footer {
+  padding: 30px;
+  background: radial-gradient(100% 100% at 100% 0%, #087699 0%, rgba(8, 118, 153, 0) 100%), #085199;
+  color: white;
+}
+.footer h4 {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.footer p {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.footer h3 {
+  font-size: 22px;
+}
+.footer a {
+  display: block;
+  color: white;
+  padding-bottom: 7px;
+  font-size: 18px;
+}
+.footer a:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*# sourceMappingURL=style.css.map */
