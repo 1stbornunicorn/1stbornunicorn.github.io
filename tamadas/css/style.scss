@@ -3,6 +3,7 @@
 
 $background: radial-gradient(99.13% 100% at 100% 0%, #FFDA56 18.75%, rgba(255, 218, 86, 0) 100%), #D5A11B;
 
+//Ami mindenre igaz
 body{
   font-family: "Open Sans", sans-serif;
   color: #333;
@@ -31,6 +32,15 @@ h1, h2, h5{
   text-transform: uppercase;
   text-align: center;
 }
+.second-hdr{
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-size: 68px;
+  color: white;
+  text-shadow: 0 8px 8px rgba(0, 0, 0, 0.6);
+}
+
+//főoldal
 .navigation{
   background-color: rgba(0, 0, 0, 0.5);
 
@@ -430,3 +440,25 @@ h1, h2, h5{
   }
 }
 
+//cégbemutatás
+.static-hdr{
+  min-height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+
+  .image{
+
+    img{
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: calc(100% + 70px);
+      top: -70px;
+      left: 0;
+      object-fit: cover;
+    }
+  }
+}

@@ -33,6 +33,14 @@ h1, h2, h5 {
   text-align: center;
 }
 
+.second-hdr {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-size: 68px;
+  color: white;
+  text-shadow: 0 8px 8px rgba(0, 0, 0, 0.6);
+}
+
 .navigation {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -368,6 +376,23 @@ h1, h2, h5 {
   .napelem .text p {
     font-size: 18px;
   }
+}
+.static-hdr {
+  min-height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.static-hdr .image img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: calc(100% + 70px);
+  top: -70px;
+  left: 0;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
