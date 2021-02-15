@@ -412,6 +412,62 @@ h3, h4 {
   font-size: 22px;
 }
 
+.contact {
+  padding: 80px 0;
+}
+.contact h2 {
+  text-transform: none;
+  margin-bottom: 40px;
+}
+.contact .image {
+  padding: 30px 0;
+}
+.contact .item {
+  padding: 10px 0;
+  font-size: 18px;
+}
+.contact .item .fas {
+  margin-right: 10px;
+}
+.contact .contact-form input[type=text], .contact .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #D29F19;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  font-family: "Kanit", sans-serif;
+}
+.contact .contact-form input[type=text]:focus, .contact .contact-form textarea:focus {
+  border: 0;
+}
+.contact .contact-form input[type=submit] {
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  background: radial-gradient(99.13% 100% at 100% 0%, #FFDA56 18.75%, rgba(255, 218, 86, 0) 100%), #D5A11B;
+  border: 0;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.contact .contact-form input[type=submit]:hover {
+  background-color: #D5A11B;
+}
+.contact .contact-form label {
+  font-family: "Kanit", sans-serif;
+  color: black;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 767px) {
   .header .text h2 {
     font-size: 40px;

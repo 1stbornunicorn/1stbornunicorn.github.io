@@ -469,10 +469,69 @@ h3, h4{
   }
 }
 
+//contact
+.contact{
+  padding: 80px 0;
 
+  h2{
+    text-transform: none;
+    margin-bottom: 40px;
+  }
+  .image{
+    padding: 30px 0;
+  }
+  .item{
+    padding: 10px 0;
+    font-size: 18px;
 
+    .fas{
+      margin-right: 10px;
+    }
+  }
+  .contact-form{
 
+    input[type=text], textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #D29F19;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 16px;
+      resize: vertical;
+      box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+      font-family: "Kanit", sans-serif;
+    }
+    input[type=text]:focus, textarea:focus{
+      border: 0;
+    }
 
+    input[type=submit] {
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 20px;
+      text-transform: uppercase;
+      padding: 15px 25px;
+      background: $background;
+      border: 0;
+      box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      transition: .5s ease;
+    }
+
+    input[type=submit]:hover {
+      background-color: #D5A11B;
+    }
+    label{
+      font-family: "Kanit", sans-serif;
+      color: black;
+      font-weight: 500;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
 
 //resp. főoldal
 @media(max-width: 767px){
