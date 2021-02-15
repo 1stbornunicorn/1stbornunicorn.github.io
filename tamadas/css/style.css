@@ -394,6 +394,24 @@ h3, h4 {
   padding: 50px 0;
 }
 
+.services {
+  padding: 80px 0 100px 0;
+}
+.services .card {
+  background: radial-gradient(99.13% 100% at 100% 0%, #FFDA56 18.75%, rgba(255, 218, 86, 0) 100%), #D5A11B;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.services .card img {
+  border-radius: 10px 10px 0 0;
+}
+.services .card .card-title {
+  font-weight: 500;
+  font-size: 22px;
+}
+
 @media (max-width: 767px) {
   .header .text h2 {
     font-size: 40px;
@@ -418,7 +436,7 @@ h3, h4 {
 }
 @media (max-width: 767px) {
   .second-hdr {
-    font-size: 56px;
+    font-size: 43px;
   }
 }
 
