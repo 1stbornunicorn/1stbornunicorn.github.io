@@ -1,27 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+$background: radial-gradient(99.13% 100% at 100% 0%, #FFDA56 18.75%, rgba(255, 218, 86, 0) 100%), #D5A11B;
 
 body{
-  font-family: "Kanit", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #333;
 }
 .btn-primary{
   font-weight: 600;
-  border-radius: 10px;
   font-size: 20px;
   text-transform: uppercase;
   padding: 15px 25px;
-  background: radial-gradient(100% 100% at 100% 0%, #087699 0%, rgba(8, 118, 153, 0) 100%), #085199;
+  background: $background;
   border: 0;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  transition: .5s ease;
 }
-  a:hover{
-    text-decoration: none;
-  }
+.btn-primary:hover{
+  background: #D5A11B;
+}
+a:hover{
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5{
+  font-family: "Kanit", sans-serif;
+}
 .navigation{
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 
   .navbar{
-    padding: 5px 20px;
+    padding: 5px 15px;
   }
 
   .navbar-brand{
@@ -39,12 +49,14 @@ body{
 
     a.nav-link{
       color: white;
+      font-family: "Kanit", sans-serif;
       font-size: 20px;
       text-transform: uppercase;
+      transition: .5s ease;
     }
 
     a.nav-link:hover{
-      color: #0095C5;
+      color: #FFD43C;
     }
   }
 }
@@ -65,6 +77,7 @@ body{
       height: calc(100% + 70px);
       top: -70px;
       left: 0;
+      object-fit: cover;
     }
   }
   .text{
@@ -94,15 +107,6 @@ body{
     color: #333;
     padding-bottom: 50px;
   }
-  .image{
-    text-align: center;
-    margin-left: 60px;
-
-    img{
-      max-width: 470px;
-      height: auto;
-    }
-  }
   .col-md-6{
     display: flex;
     flex-direction: column;
@@ -114,8 +118,8 @@ body{
   }
 }
 .icons{
-  background: radial-gradient(99.13% 100% at 100% 0%, #087699 0%, rgba(8, 118, 153, 0) 100%), #085199;
-  padding: 100px 50px;
+  background: $background;
+  padding: 100px 0;
   color: white;
 
   h2{
@@ -133,7 +137,7 @@ body{
       margin-top: 40px;
     }
     p{
-      font-size: 25px;
+      font-size: 19px;
     }
   }
   .button{
@@ -142,12 +146,12 @@ body{
 
     .btn-primary{
       background: transparent;
-      border: 3px solid white;;
+      border: 3px solid white;
     }
   }
 }
 .forint{
-  min-height: 600px;
+  min-height: 650px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -160,9 +164,10 @@ body{
       position: absolute;
       z-index: -1;
       width: 100%;
-      height: calc(100% + 70px);
-      top: -70px;
+      height: 100%;
+      top: 0;
       left: 0;
+      object-fit: cover;
     }
   }
   .text{
@@ -176,12 +181,12 @@ body{
     p{
       font-size: 28px;
       color: #333;
-      margin: 50px;
+      margin: 70px 0;
     }
   }
 }
 .open{
-  padding: 60px;
+  padding: 90px 0;
 
   .title {
     color: #333;
@@ -192,14 +197,20 @@ body{
 
   .accordion {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+
+    .card:not(:first-child):not(:last-child){
+      border-top: 1px solid #8D6B11;
+      border-bottom: 1px solid #8D6B11;
+    }
 
     .card {
-      //border: 1px solid #06396A;
+      border: 0;
       border-radius: 0;
 
       .card-header {
-        background: #085199;
-        border: 1px solid #06396A;
+        background: #D29F19;
 
         .btn-link {
           color: white;
@@ -207,10 +218,11 @@ body{
           font-size: 24px;
           text-transform: uppercase;
           border: 0;
+          transition: .5s ease;
         }
 
         .btn-link:hover {
-          color: #333;
+          color: rgba(255, 255, 255, 0.6);
         }
 
         .btn.focus, .btn:focus {
@@ -236,26 +248,21 @@ body{
   .text{
 
     .number{
-      background-color: #085199;
-      padding: 7px 14px;
-      margin-right: 10px;
+      display: inline-block;
+      background-color: #D29F19;
+      height: 40px;
+      width: 40px;
+      margin-right: 25px;
       border-radius: 100%;
       color: white;
+      text-align: center;
+      padding-top: 4px;
      }
     .item{
       padding: 10px;
     }
     span{
       font-size: 22px;
-    }
-  }
-  .image{
-    text-align: center;
-
-    img{
-      max-width: 500px;
-      height: auto;
-
     }
   }
 }
@@ -273,9 +280,10 @@ body{
       position: absolute;
       z-index: -1;
       width: 100%;
-      height: calc(100% + 70px);
-      top: -70px;
+      height: 100%;
+      top: 0;
       left: 0;
+      object-fit: cover;
     }
   }
   .text{
@@ -295,7 +303,7 @@ body{
 }
 .footer{
   padding: 30px;
-  background: radial-gradient(100% 100% at 100% 0%, #087699 0%, rgba(8, 118, 153, 0) 100%), #085199;
+  background: $background;
   color: white;
 
   h4{
@@ -314,9 +322,48 @@ body{
     color: white;
     padding-bottom: 7px;
     font-size: 18px;
+    transition: .5s ease;
   }
   a:hover{
     color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+@media(max-width: 767px){
+  .header{
+
+    .text{
+      h2{
+        font-size: 40px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+  .forint{
+
+    .text{
+
+      h2{
+        font-size: 40px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+  .napelem{
+
+    .text{
+
+      h2{
+        font-size: 40px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
   }
 }
 
