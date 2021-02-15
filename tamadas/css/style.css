@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;400;700&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
   color: #333;
@@ -25,8 +25,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h5 {
   font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .navigation {
@@ -76,28 +80,23 @@ h1, h2, h3, h4, h5 {
   object-fit: cover;
 }
 .header .text h2 {
-  font-size: 66px;
-  font-weight: bolder;
-  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 800;
   color: white;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 8px 8px rgba(0, 0, 0, 0.6);
 }
 .header .text p {
-  padding: 30px;
+  padding: 70px 0;
   font-size: 28px;
   color: white;
+  font-weight: 400;
 }
 
 .info {
   padding: 100px 0;
 }
 .info h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 34px;
-  color: #333;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 .info .col-md-6 {
   display: flex;
@@ -105,7 +104,7 @@ h1, h2, h3, h4, h5 {
   justify-content: center;
 }
 .info .col-md-6 .button {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .icons {
@@ -114,10 +113,6 @@ h1, h2, h3, h4, h5 {
   color: white;
 }
 .icons h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 34px;
-  font-weight: bold;
   padding-bottom: 50px;
 }
 .icons .col-md-3 {
@@ -128,7 +123,7 @@ h1, h2, h3, h4, h5 {
   margin-top: 40px;
 }
 .icons .col-md-3 p {
-  font-size: 19px;
+  font-size: 20px;
 }
 .icons .button {
   text-align: center;
@@ -158,33 +153,58 @@ h1, h2, h3, h4, h5 {
 }
 .forint .text h2 {
   font-size: 64px;
-  color: #333;
-  text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 800;
 }
 .forint .text p {
-  font-size: 28px;
-  color: #333;
-  margin: 70px 0;
+  font-size: 34px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.forint .text .check {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  margin-bottom: 70px;
+  display: inline-block;
+}
+.forint .text .check .fa-check-square {
+  color: #038000;
+  font-size: 24px;
+}
+.forint .text .check .item {
+  font-size: 24px;
+  display: inline-block;
+}
+.forint .text .check .item span {
+  padding-left: 7px;
+  color: black;
+}
+.forint .text .check .item:first-child {
+  margin-right: 30px;
+}
+.forint .text .check .item:last-child {
+  margin-left: 30px;
 }
 
 .open {
   padding: 90px 0;
 }
 .open .title {
-  color: #333;
+  padding-bottom: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
   font-size: 34px;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  text-align: left;
 }
 .open .accordion {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   overflow: hidden;
 }
-.open .accordion .card:not(:first-child):not(:last-child) {
+.open .accordion .card:not(:first-child) {
   border-top: 1px solid #8D6B11;
-  border-bottom: 1px solid #8D6B11;
 }
 .open .accordion .card {
   border: 0;
@@ -192,11 +212,12 @@ h1, h2, h3, h4, h5 {
 }
 .open .accordion .card .card-header {
   background: #D29F19;
+  margin-bottom: 0;
 }
 .open .accordion .card .card-header .btn-link {
   color: white;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 28px;
   text-transform: uppercase;
   border: 0;
   transition: 0.5s ease;
@@ -216,9 +237,11 @@ h1, h2, h3, h4, h5 {
   align-items: center;
 }
 .abra h2 {
-  text-transform: uppercase;
-  font-size: 34px;
-  margin-bottom: 30px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.abra .text .item {
+  padding: 10px;
 }
 .abra .text .number {
   display: inline-block;
@@ -229,13 +252,17 @@ h1, h2, h3, h4, h5 {
   border-radius: 100%;
   color: white;
   text-align: center;
-  padding-top: 4px;
-}
-.abra .text .item {
-  padding: 10px;
+  padding-top: 3px;
 }
 .abra .text span {
-  font-size: 22px;
+  font-size: 24px;
+}
+.abra .text p {
+  font-size: 16px;
+  margin-left: 65px;
+}
+.abra .button {
+  margin-top: 50px;
 }
 
 .napelem {
@@ -257,13 +284,10 @@ h1, h2, h3, h4, h5 {
 }
 .napelem .text h2 {
   font-size: 64px;
-  color: #333;
-  text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 800;
 }
 .napelem .text p {
-  font-size: 28px;
-  color: #333;
+  font-size: 34px;
   margin: 50px;
 }
 
@@ -273,21 +297,24 @@ h1, h2, h3, h4, h5 {
   color: white;
 }
 .footer h4 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
   text-transform: uppercase;
   margin-bottom: 25px;
 }
 .footer p {
   margin-bottom: 40px;
-  font-size: 18px;
 }
 .footer h3 {
   font-size: 22px;
+  font-weight: 500;
 }
 .footer a {
   display: block;
   color: white;
   padding-bottom: 7px;
-  font-size: 18px;
+  font-size: 16px;
   transition: 0.5s ease;
 }
 .footer a:hover {

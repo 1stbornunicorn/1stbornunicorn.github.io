@@ -41,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1612368999049" duration="6144000" />
       <workItem from="1612529011133" duration="14000" />
       <workItem from="1612529135139" duration="37923000" />
-      <workItem from="1613141741456" duration="17136000" />
+      <workItem from="1613141741456" duration="24155000" />
     </task>
     <task id="LOCAL-00001" summary="hali">
       <created>1611775084771</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613306195720</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tamadas-projekt">
+      <created>1613382251565</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613382251565</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
