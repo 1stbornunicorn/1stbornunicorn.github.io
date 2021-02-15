@@ -33,6 +33,12 @@ h1, h2, h5 {
   text-align: center;
 }
 
+h3, h4 {
+  font-family: "Kanit", sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+}
+
 .second-hdr {
   font-family: "Kanit", sans-serif;
   font-weight: 800;
@@ -274,7 +280,7 @@ h1, h2, h5 {
 }
 
 .house {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 .house h3 {
   font-family: "Kanit", sans-serif;
@@ -342,7 +348,6 @@ h1, h2, h5 {
 }
 .footer h3 {
   font-size: 22px;
-  font-weight: 500;
 }
 .footer a {
   display: block;
@@ -353,6 +358,40 @@ h1, h2, h5 {
 }
 .footer a:hover {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.static-hdr {
+  min-height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.static-hdr .image img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: calc(100% + 70px);
+  top: -70px;
+  left: 0;
+  object-fit: cover;
+}
+
+.script {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.script h2 {
+  text-transform: none;
+  text-align: left;
+}
+.script img {
+  width: 470px;
+  height: auto;
+}
+.script .button {
+  padding: 50px 0;
 }
 
 @media (max-width: 767px) {
@@ -377,22 +416,10 @@ h1, h2, h5 {
     font-size: 18px;
   }
 }
-.static-hdr {
-  min-height: 350px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0;
-}
-.static-hdr .image img {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: calc(100% + 70px);
-  top: -70px;
-  left: 0;
-  object-fit: cover;
+@media (max-width: 767px) {
+  .second-hdr {
+    font-size: 56px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

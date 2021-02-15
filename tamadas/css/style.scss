@@ -32,6 +32,11 @@ h1, h2, h5{
   text-transform: uppercase;
   text-align: center;
 }
+h3, h4{
+  font-family: "Kanit", sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+}
 .second-hdr{
   font-family: "Kanit", sans-serif;
   font-weight: 800;
@@ -309,7 +314,7 @@ h1, h2, h5{
   }
 }
 .house{
-  padding: 100px 0;
+  padding: 60px 0;
 
   h3{
     font-family: "Kanit", sans-serif;
@@ -388,7 +393,6 @@ h1, h2, h5{
   }
   h3{
     font-size: 22px;
-    font-weight: 500;
   }
   a{
     display: block;
@@ -402,6 +406,53 @@ h1, h2, h5{
   }
 }
 
+//cégbemutatás
+.static-hdr{
+  min-height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+
+  .image{
+
+    img{
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: calc(100% + 70px);
+      top: -70px;
+      left: 0;
+      object-fit: cover;
+    }
+  }
+}
+.script{
+  padding-top: 80px;
+  padding-bottom: 20px;
+
+  h2{
+    text-transform: none;
+    text-align: left;
+  }
+
+  img{
+    width: 470px;
+    height: auto;
+  }
+
+  .button{
+    padding: 50px 0;
+  }
+}
+
+
+
+
+
+
+//resp. főoldal
 @media(max-width: 767px){
   .header{
 
@@ -440,25 +491,11 @@ h1, h2, h5{
   }
 }
 
-//cégbemutatás
-.static-hdr{
-  min-height: 350px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0;
-
-  .image{
-
-    img{
-      position: absolute;
-      z-index: -1;
-      width: 100%;
-      height: calc(100% + 70px);
-      top: -70px;
-      left: 0;
-      object-fit: cover;
-    }
+//resp. static
+@media (max-width: 767px) {
+  .second-hdr{
+    font-size: 56px;
   }
 }
+
+
