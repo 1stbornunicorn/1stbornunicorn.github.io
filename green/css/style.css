@@ -23,6 +23,7 @@ body {
 
 a:hover {
   text-decoration: none;
+  color: #870000;
 }
 
 h1, h2, h5 {
@@ -38,8 +39,34 @@ h3, h4 {
   text-transform: none;
 }
 
+.static-hdr {
+  min-height: 320px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.static-hdr .image img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.static-hdr .second-hdr h2 {
+  font-weight: 700;
+  font-size: 66px;
+  color: white;
+  text-shadow: 0 8px 8px rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.1em;
+}
+
 .navigation {
-  background-color: radial-gradient(100% 100% at 100% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0.2) 100%), linear-gradient(0deg, #BBBCC0, #BBBCC0), url(img/funky-lines.png);
+  background-color: radial-gradient(100% 100% at 100% 0%, #FFFFFF 33.85%, rgba(255, 255, 255, 0) 100%), #EDEDED;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 .navigation .navbar {
   padding: 10px 40px;
@@ -47,12 +74,6 @@ h3, h4 {
 .navigation .navbar-brand {
   padding: 0;
   margin: 0;
-}
-.navigation .navbar-brand .logo {
-  width: 55px;
-  height: 55px;
-  border-radius: 100%;
-  background: #249937;
 }
 .navigation .nav-item {
   display: flex;
@@ -65,7 +86,7 @@ h3, h4 {
   transition: 0.5s ease;
 }
 .navigation .nav-item a.nav-link:hover {
-  color: #249937;
+  color: #870000;
 }
 
 .header {
@@ -102,7 +123,13 @@ h3, h4 {
 }
 
 .about {
-  padding: 80px 0;
+  padding: 65px 0;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.about .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .about .text {
   text-align: left;
@@ -112,9 +139,31 @@ h3, h4 {
   text-transform: none;
   letter-spacing: 0.1em;
   text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+  text-align: left;
 }
 .about .text p {
   padding: 15px 0;
+}
+
+.sale {
+  color: white;
+  padding: 70px 0;
+  background-color: #006828;
+}
+.sale h2 {
+  font-size: 70px;
+  letter-spacing: 0.1em;
+  margin-bottom: 30px;
+}
+.sale .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sale .text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 10px;
 }
 
 .footer {
@@ -125,6 +174,12 @@ h3, h4 {
 .footer .text h2 {
   letter-spacing: 0.27em;
   text-align: left;
+}
+.footer .text h4 {
+  font-size: 28px;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .footer .text h3 {
   text-transform: uppercase;
@@ -143,6 +198,19 @@ h3, h4 {
   color: white;
   padding: 5px 0;
   font-size: 14px;
+}
+
+.script {
+  padding: 80px 0;
+}
+.script h2 {
+  text-transform: none;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.script .image img {
+  float: right;
 }
 
 /*# sourceMappingURL=style.css.map */
