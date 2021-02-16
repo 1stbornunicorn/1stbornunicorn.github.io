@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee1d337-186a-4454-aff4-51df533526c3" name="Default Changelist" comment="tamadas-projekt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tamadas/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/tamadas/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tamadas/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/tamadas/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tamadas/static-extra.html" beforeDir="false" afterPath="$PROJECT_DIR$/tamadas/static-extra.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tamadas/static.html" beforeDir="false" afterPath="$PROJECT_DIR$/tamadas/static.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tamadas/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tamadas/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tamadas/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/tamadas/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tamadas/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tamadas/css/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1612368999049" duration="6144000" />
       <workItem from="1612529011133" duration="14000" />
       <workItem from="1612529135139" duration="37923000" />
-      <workItem from="1613141741456" duration="37373000" />
+      <workItem from="1613141741456" duration="41213000" />
     </task>
     <task id="LOCAL-00001" summary="hali">
       <created>1611775084771</created>
@@ -238,7 +239,28 @@
       <option name="project" value="LOCAL" />
       <updated>1613402891326</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="tamadas-projekt">
+      <created>1613402957765</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1613402957765</updated>
+    </task>
+    <task id="LOCAL-00025" summary="tamadas-projekt">
+      <created>1613402968736</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1613402968736</updated>
+    </task>
+    <task id="LOCAL-00026" summary="tamadas-projekt">
+      <created>1613403060077</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1613403060077</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

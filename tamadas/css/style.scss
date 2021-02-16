@@ -489,6 +489,7 @@ h3, h4{
     }
   }
   .contact-form{
+    padding: 0 20px;
 
     input[type=text], textarea {
       width: 100%;
@@ -570,13 +571,19 @@ h3, h4{
       }
     }
   }
-}
-
-//resp. static
-@media (max-width: 767px) {
   .second-hdr{
     font-size: 43px;
   }
+  .contact{
+
+    .image{
+      text-align: center;
+    }
+    .address{
+       text-align: center;
+     }
+  }
 }
+
 
 

@@ -429,6 +429,9 @@ h3, h4 {
 .contact .item .fas {
   margin-right: 10px;
 }
+.contact .contact-form {
+  padding: 0 20px;
+}
 .contact .contact-form input[type=text], .contact .contact-form textarea {
   width: 100%;
   padding: 10px;
@@ -489,10 +492,16 @@ h3, h4 {
   .napelem .text p {
     font-size: 18px;
   }
-}
-@media (max-width: 767px) {
+
   .second-hdr {
     font-size: 43px;
+  }
+
+  .contact .image {
+    text-align: center;
+  }
+  .contact .address {
+    text-align: center;
   }
 }
 
