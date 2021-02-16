@@ -38,73 +38,6 @@ h3, h4 {
   text-transform: none;
 }
 
-.second-hdr {
-  font-weight: 800;
-  font-size: 68px;
-  color: white;
-  text-shadow: 0 8px 8px rgba(0, 0, 0, 0.6);
-}
-
-.static-hdr {
-  min-height: 350px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0;
-}
-.static-hdr .image img {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: calc(100% + 70px);
-  top: -70px;
-  left: 0;
-  object-fit: cover;
-}
-
-.contact-form {
-  padding: 0 20px;
-}
-.contact-form input[type=text], .contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #D29F19;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-bottom: 16px;
-  resize: vertical;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
-  font-family: "Kanit", sans-serif;
-}
-.contact-form input[type=text]:focus, .contact-form textarea:focus {
-  border: 0;
-}
-.contact-form input[type=submit] {
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 20px;
-  text-transform: uppercase;
-  padding: 15px 25px;
-  background: #E5E5E5;
-  border: 0;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  transition: 0.5s ease;
-}
-.contact-form input[type=submit]:hover {
-  background-color: #D5A11B;
-}
-.contact-form label {
-  font-family: "Kanit", sans-serif;
-  color: black;
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
-}
-
 .navigation {
   background-color: radial-gradient(100% 100% at 100% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0.2) 100%), linear-gradient(0deg, #BBBCC0, #BBBCC0), url(img/funky-lines.png);
 }
@@ -147,22 +80,25 @@ h3, h4 {
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: calc(100% + 70px);
-  top: -70px;
+  height: 100%;
+  top: 0;
   left: 0;
   object-fit: cover;
 }
 .header .text h2 {
-  font-size: 64px;
-  font-weight: 800;
+  font-size: 80px;
+  font-weight: 700;
   color: white;
   text-shadow: 0 8px 8px rgba(0, 0, 0, 0.6);
 }
-.header .text p {
-  padding: 70px 0;
+.header .text .intro {
+  padding: 80px 0;
+}
+.header .text .intro p {
   font-size: 28px;
   color: white;
   font-weight: 400;
+  text-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 /*# sourceMappingURL=style.css.map */
