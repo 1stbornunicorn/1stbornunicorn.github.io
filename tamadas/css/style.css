@@ -15,10 +15,22 @@ body {
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   transition: 0.5s ease;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .btn-primary:hover {
-  background: #D5A11B;
+  background: radial-gradient(99.13% 100% at 100% 0%, #FFDA56 18.75%, rgba(255, 218, 86, 0) 100%), #D5A11B;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.btn-primary:focus {
+  background: radial-gradient(99.13% 100% at 100% 0%, #FFDA56 18.75%, rgba(255, 218, 86, 0) 100%), #D5A11B;
 }
 
 a:hover {
