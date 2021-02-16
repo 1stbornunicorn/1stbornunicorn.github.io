@@ -271,14 +271,14 @@ h3, h4 {
 }
 .abra .text .number {
   display: inline-block;
-  background-color: #D29F19;
+  background-color: #25A90F;
   height: 40px;
   width: 40px;
   margin-right: 25px;
   border-radius: 100%;
   color: white;
   text-align: center;
-  padding-top: 3px;
+  padding-top: 2px;
 }
 .abra .text span {
   font-size: 24px;
@@ -311,7 +311,7 @@ h3, h4 {
   font-size: 24px;
 }
 .house .col-md-6 .text .item .fas {
-  color: #D5A11B;
+  color: #25A90F;
 }
 .house .col-md-6 .text .item span {
   margin-left: 20px;
