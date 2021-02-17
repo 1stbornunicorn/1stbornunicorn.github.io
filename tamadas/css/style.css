@@ -205,6 +205,13 @@ h3, h4 {
   align-items: center;
   padding: 30px 0;
 }
+.forint .check-container {
+  width: fit-content;
+  margin: auto;
+}
+.forint .check-container .text {
+  width: 100%;
+}
 .forint .image img {
   position: absolute;
   z-index: -2;
@@ -214,31 +221,31 @@ h3, h4 {
   left: 0;
   object-fit: cover;
 }
-.forint .text span {
+.forint span {
   color: black;
 }
-.forint .text h2 {
+.forint h2 {
   font-size: 64px;
   font-weight: 800;
 }
-.forint .text p {
+.forint p {
   font-size: 34px;
   margin-top: 70px;
   margin-bottom: 30px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.forint .text .check {
+.forint .check {
   padding: 10px 20px;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 8px;
   display: inline-block;
 }
-.forint .text .check .fa-check-square {
+.forint .check .fa-check-square {
   color: #038000;
   font-size: 24px;
   margin-right: 10px;
 }
-.forint .text .check .item {
+.forint .check .item {
   font-size: 24px;
   display: inline-block;
 }
@@ -436,7 +443,7 @@ h3, h4 {
 }
 .services .card img {
   border-radius: 10px 10px 0 0;
-  height: 280px;
+  height: 200px;
   width: 100%;
   object-fit: cover;
 }
@@ -478,23 +485,6 @@ h3, h4 {
 }
 .contact .contact-form input[type=text]:focus, .contact .contact-form textarea:focus {
   border: 0;
-}
-.contact .contact-form input[type=submit] {
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 20px;
-  text-transform: uppercase;
-  padding: 15px 25px;
-  background: radial-gradient(99.13% 100% at 100% 0%, #FFDA56 18.75%, rgba(255, 218, 86, 0) 100%), #D5A11B;
-  border: 0;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  transition: 0.5s ease;
-}
-.contact .contact-form input[type=submit]:hover {
-  background-color: #D5A11B;
 }
 .contact .contact-form label {
   font-family: "Kanit", sans-serif;

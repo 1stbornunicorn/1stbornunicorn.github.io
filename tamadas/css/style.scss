@@ -218,6 +218,15 @@ h3, h4{
   align-items: center;
   padding: 30px 0;
 
+  .check-container{
+    width: fit-content;
+    margin: auto;
+
+    .text{
+      width: 100%;
+    }
+  }
+
   .image{
 
     img{
@@ -230,8 +239,6 @@ h3, h4{
       object-fit: cover;
     }
   }
-  .text{
-
     span{
       color: black;
     }
@@ -262,7 +269,6 @@ h3, h4{
       }
     }
   }
-}
 .open{
   padding: 90px 0;
 
@@ -497,7 +503,7 @@ h3, h4{
 
     img{
       border-radius: 10px 10px 0 0;
-      height: 280px;
+      height: 200px;
       width: 100%;
       object-fit: cover;
     }
@@ -546,24 +552,6 @@ h3, h4{
       border: 0;
     }
 
-    input[type=submit] {
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-weight: 600;
-      font-size: 20px;
-      text-transform: uppercase;
-      padding: 15px 25px;
-      background: $background;
-      border: 0;
-      box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
-      border-radius: 10px;
-      transition: .5s ease;
-    }
-
-    input[type=submit]:hover {
-      background-color: #D5A11B;
-    }
     label{
       font-family: "Kanit", sans-serif;
       color: black;
