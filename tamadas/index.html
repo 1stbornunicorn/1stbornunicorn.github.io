@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fontaw.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <title>Támadás a rezsiköltségek ellen</title>
 </head>
 <body>
@@ -52,6 +52,7 @@
 <!--header-->
 <section class="header">
     <div class="image">
+        <div class="gradient"></div>
         <img src="img/header.png" alt="...">
     </div>
     <div class="container">
@@ -70,13 +71,24 @@
         <h2>Miért érdemes hőszivattyús rendszerben gondolkodnia?</h2>
         <div class="row">
             <div class="col-md-6 mb-5 mb-md-0">
-                <div class="text wow slideInLeft">
+                <div class="text" data-aos="slide-right" data-aos-offset="200"
+                     data-aos-delay="10"
+                     data-aos-duration="500"
+                     data-aos-easing="ease-in-out"
+                     data-aos-mirror="true"
+                     data-aos-once="false">
                     <p>A hőszivattyús rendszerek innovatív, környezetbarát megoldások. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi ut dignissim quis consequat leo sed. Et diam dictum accumsan, posuere rhoncus tellus. Suspendisse arcu odio nulla id nec molestie urna nisl magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi ut dignissim quis consequat leo sed. Et diam dictum accumsan, posuere rhoncus tellus. Suspendisse arcu odio nulla id nec molestie urna nisl magna.</p>
                     <div class="button"><a href="#" class="btn btn-primary">További információk hőszivattyúkról</a></div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="image wow slideInRight">
+            <div class="col-md-6" data-aos="slide-left"
+                 data-aos-offset="200"
+                 data-aos-delay="10"
+                 data-aos-duration="500"
+                 data-aos-easing="ease-in-out"
+                 data-aos-mirror="true"
+                 data-aos-once="false">
+                <div class="image">
                     <img src="img/level.png" alt="" class="img-fluid">
                 </div>
             </div>
@@ -115,6 +127,7 @@
 <!--0ft rezsi-->
 <section class="forint">
     <div class="image">
+        <div class="gradient-white"></div>
         <img src="img/fehersav.png" alt="...">
     </div>
     <div class="container text-center">
@@ -122,9 +135,17 @@
             <h2>0 ft rezsi!</h2>
             <p>Hőszivattyúkra felvehető támogatások révén csökkenthetők a rezsiköltségek!</p>
             <div class="check">
-                <div class="item"><i class="far fa-check-square"></i><span>Áram</span></div>
+                <div class="item mr-md-3"><i class="far fa-check-square"></i><span>Hűtés</span></div>
                 <div class="item"><i class="far fa-check-square"></i><span>Fűtés</span></div>
-                <div class="item"><i class="far fa-check-square"></i><span>Melegvíz</span></div>
+                <div class="item ml-md-3"><i class="far fa-check-square"></i><span>Melegvíz</span></div>
+            </div>
+                <span class="mr-3 ml-3" style="text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); font-size: 26px;"> + </span>
+            <div class="check">
+                <div class="item"><i class="far fa-check-square"></i><span>Áram</span></div>
+            </div>
+            <div class="text mb-5">
+                <span style="margin-right: 280px; text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); font-size: 20px;">Hőszivattyú</span>
+                <span style="text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); font-size: 20px;">Napelemes rendszer</span>
             </div>
             <div class="button"><a href="#" class="btn btn-primary">Hőszivattyús rendszer kedvezmények</a></div>
         </div>
@@ -230,10 +251,10 @@
         <h3>Hosszútávú komplex megoldás megújuló energiával</h3>
         <div class="row">
             <div class="col-md-6">
-                <div class="image mb-3 mb-md-0"><img src="img/house.png" alt="..." class="img-fluid"></div>
+                <div class="image mb-3 mr-md-2 mb-md-0"><img src="img/house.png" alt="..." class="img-fluid"></div>
             </div>
             <div class="col-md-6">
-                <div class="text">
+                <div class="text ml-md-2">
                     <div class="item"><i class="fas fa-wifi"></i><span>WiFI vezérlés</span></div>
                     <div class="item"><i class="fas fa-database"></i><span>Rendszeres adatszolgáltatás</span></div>
                     <div class="item"><i class="fas fa-lock"></i><span>Magas fokú biztonság</span></div>
@@ -250,6 +271,7 @@
 <!--napelem-->
 <section class="napelem">
     <div class="image">
+        <div class="gradient-white"></div>
         <img src="img/building.png" alt="...">
     </div>
     <div class="container text-center">
@@ -300,6 +322,9 @@
 <script src="js/jquery.js"></script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/wow.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
