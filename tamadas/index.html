@@ -17,6 +17,15 @@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v9.0" nonce="X1t2Hof4"></script>
 
+
+<!--preloader-->
+<div id="loader">
+    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+
+
 <!--navbar-->
 <section class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -287,33 +296,38 @@
 
 <!-- footer -->
 <section class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 mb-5 mb-md-0">
-                <h4>Támadás a rezsiárak ellen</h4>
-                <p>Cím: 3529 Miskolc, Csabai kapu 55.<br>Telefon: +36 12 345 6789<br>E-mail: info@tamadas.hu</p>
-                <h3>Kövessen minket Facebook-on is!</h3>
-                <div class="fb-page" data-href="https://www.facebook.com/Futureweb-132505283491100" data-tabs="" data-width="350" data-height="100" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nemetoraoktatas/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nemetoraoktatas/">Skype-on németül</a></blockquote></div>
-            </div>
-            <div class="col-md-4 mb-5 mb-md-0">
-                <div class="ml-md-5">
-                    <h4>Menü</h4>
-                    <a href="#">Cégbemutatás</a>
-                    <a href="#">Hőszivattyú bemutatása</a>
-                    <a href="#">Szolgáltatások</a>
-                    <a href="#">Kapcsolat</a>
-                    <a href="#">Kalkulátor</a>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-md-0">
+                    <h4>Támadás a rezsiárak ellen</h4>
+                    <p>Cím: 3529 Miskolc, Csabai kapu 55.<br>Telefon: +36 12 345 6789<br>E-mail: info@tamadas.hu</p>
+                    <h3>Kövessen minket Facebook-on is!</h3>
+                    <div class="fb-page" data-href="https://www.facebook.com/Futureweb-132505283491100" data-tabs="" data-width="350" data-height="100" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nemetoraoktatas/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nemetoraoktatas/">Skype-on németül</a></blockquote></div>
+                </div>
+                <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="ml-md-5">
+                        <h4>Menü</h4>
+                        <a href="#">Cégbemutatás</a>
+                        <a href="#">Hőszivattyú bemutatása</a>
+                        <a href="#">Szolgáltatások</a>
+                        <a href="#">Kapcsolat</a>
+                        <a href="#">Kalkulátor</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Információk</h4>
+                    <a href="#">Általános Szerződési Feltételek</a>
+                    <a href="#">Adatvédelmi Nyilatkozat</a>
+                    <a href="#">Hőszivattyú Kedvezmények</a>
+                    <a href="#">Napelem Kalkulátor</a>
+                    <a href="#">Hőszivattyús Rendszer Előnyei</a>
                 </div>
             </div>
-            <div class="col-md-4">
-                <h4>Információk</h4>
-                <a href="#">Általános Szerződési Feltételek</a>
-                <a href="#">Adatvédelmi Nyilatkozat</a>
-                <a href="#">Hőszivattyú Kedvezmények</a>
-                <a href="#">Napelem Kalkulátor</a>
-                <a href="#">Hőszivattyús Rendszer Előnyei</a>
-            </div>
         </div>
+    </div>
+    <div class="sub">
+        2021 &copy Minden jog fenntartva. | Készítette: <a href="http://www.futureweb.hu/" target="_blank"><img src="img/fw-logo.png" alt=""></a>
     </div>
 </section>
 <!-- end -->
@@ -327,5 +341,6 @@
 <script>
     AOS.init();
 </script>
+<script src="js/app.js"></script>
 </body>
 </html>

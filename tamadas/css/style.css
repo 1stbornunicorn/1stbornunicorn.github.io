@@ -412,6 +412,15 @@ h3, h4 {
 .footer a:hover {
   color: rgba(255, 255, 255, 0.6);
 }
+.footer .sub {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  font-weight: 300;
+}
 
 .script {
   padding-top: 80px;
@@ -526,6 +535,22 @@ h3, h4 {
   .contact .address {
     text-align: center;
   }
+}
+/*loader*/
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 999999;
+}
+#loader > div {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
