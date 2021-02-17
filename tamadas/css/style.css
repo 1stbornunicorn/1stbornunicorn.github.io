@@ -385,7 +385,7 @@ h3, h4 {
 }
 
 .footer {
-  padding: 30px;
+  padding-top: 30px;
   background: radial-gradient(99.13% 100% at 100% 0%, #FFDA56 18.75%, rgba(255, 218, 86, 0) 100%), #D5A11B;
   color: white;
 }
@@ -413,13 +413,23 @@ h3, h4 {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer .sub {
+  margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  font-size: 10px;
+  font-size: 11px;
   background-color: rgba(0, 0, 0, 0.25);
   color: white;
   font-weight: 300;
+}
+.footer .sub a {
+  display: inline;
+}
+.footer .sub a img {
+  max-width: 160px;
+  height: auto;
+  display: inline;
+  margin-left: 3px;
 }
 
 .script {

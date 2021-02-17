@@ -32,7 +32,6 @@ body{
 .btn-primary:focus{
   background: $background;
 }
-
 a:hover{
   text-decoration: none;
 }
@@ -439,7 +438,7 @@ h3, h4{
   }
 }
 .footer{
-  padding: 30px;
+  padding-top: 30px;
   background: $background;
   color: white;
 
@@ -468,13 +467,25 @@ h3, h4{
   }
 
   .sub {
+    margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    font-size: 10px;
+    font-size: 11px;
     background-color: rgba(0,0,0,.25);
     color: white;
     font-weight: 300;
+
+    a{
+      display: inline;
+
+      img{
+        max-width: 160px;
+        height: auto;
+        display: inline;
+        margin-left: 3px;
+      }
+    }
   }
 }
 
@@ -641,4 +652,5 @@ h3, h4{
     margin-right: auto;
   }
 }
+
 
