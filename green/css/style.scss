@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;500;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;400;700&display=swap');
 
-$background: #E5E5E5;
-$green: #249937;
-$darkgrey: #7D7E83;
+$red: #A00100;
+$darkgrey: #1F2B2B;
 $grey: #BBBCC0;
-$apple: radial-gradient(100% 100% at 100% 0%, #FFFFFF 33.85%, rgba(255, 255, 255, 0) 100%), #EDEDED;
-$metallic: radial-gradient(100% 100% at 100% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0.2) 100%), linear-gradient(0deg, #BBBCC0, #BBBCC0), url(img/funky-lines.png);
-$product-shadow: 3px 6px 6px rgba(0, 0, 0, 0.25);
-$section-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
-$h2-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
 
 
 //Ami mindenre igaz
 body{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gill Sans MT Condensed", sans-serif;
   color: #333;
   background-color: #E5E5E5;
 }
